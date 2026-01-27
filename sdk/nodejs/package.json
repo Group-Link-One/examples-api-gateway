@@ -1,0 +1,19 @@
+{
+  "name": "api-gateway-client",
+  "version": "1.0.0",
+  "description": "API Gateway Client SDK for Node.js",
+  "main": "apiGatewayClient.js",
+  "scripts": {
+    "start": "node apiGatewayClient.js"
+  },
+  "keywords": [
+    "api-gateway",
+    "hmac",
+    "authentication"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

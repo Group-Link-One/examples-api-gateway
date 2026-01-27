@@ -1,0 +1,73 @@
+# Binaries
+_output/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage reports
+coverage.out
+coverage.html
+
+# Output of go build
+/api-gateway
+
+# Go workspace file
+go.work
+
+# Credentials (dev only)
+config/credentials.d/*
+!config/credentials.d/.keep
+
+# JWT Keys (dev only)
+keys/
+.env.sh
+
+# Temp test directories
+/var/tmp/api-gateway/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =====================
+# .NET / C#
+# =====================
+**/bin/
+**/obj/
+*.pdb
+
+# =====================
+# Java
+# =====================
+*.class
+
+# =====================
+# Node.js
+# =====================
+node_modules/
+
+# =====================
+# Python
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =====================
+# Go build artifacts
+# =====================
+**/*.exe
+**/*.test
+**/*.out
+**/test-backend
+
+
