@@ -13,6 +13,7 @@ Cada pasta contém um exemplo completo e funcional:
 - **[Java](sdk/java/)** - Usando bibliotecas padrão do Java
 - **[C#](sdk/csharp/)** - Usando `HttpClient` do .NET
 - **[Go](sdk/go/)** - Usando pacotes padrão `net/http` e `crypto`
+- **[SAP Integration Suite (CPI)](sdk/sap-cpi/)** - Script Groovy para iFlow, com a credencial no Secure Store
 
 ## Como Funciona a Autenticação
 
@@ -258,6 +259,9 @@ sdk/
 │   ├── main.go                   # Exemplo de uso
 │   ├── client.go                 # Implementação do cliente
 │   └── go.mod                    # Módulo Go
+├── sap-cpi/
+│   ├── README.md                 # Configuração do iFlow no SAP CPI
+│   └── GLHmacSign.groovy         # Script que assina a requisição
 ```
 
 ### Componentes de Cada SDK
